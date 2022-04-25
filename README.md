@@ -1,0 +1,1 @@
+This presentation is rendered from Markdown to PDF via `pandoc` and `beamer`.
