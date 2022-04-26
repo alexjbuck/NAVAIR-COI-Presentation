@@ -6,7 +6,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "pandoc --slide-level=2 -t beamer -o out.pdf presentation.md"
+            "command": "pandoc --slide-level=2 -t beamer -N  -o out.pdf presentation.md"
         }
     ]
 }
