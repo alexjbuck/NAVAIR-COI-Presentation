@@ -8,7 +8,7 @@ theme:
 date:
 - April 28, 2022
 toc: true
-toc-title: the overview
+toc-title: Overview
 ---
 
 ## Who am I?
@@ -106,7 +106,7 @@ Departs classified via prepaid UPS^[DoD Manual 5200.01 Enclosure 4 paragraph 10d
 
 ## Cronus, the harvester
 
-Tool that:
+Tool built on JMPS laptops that:
 
 - Automates the snowball setup
 - Minimizes aircrew decisions
