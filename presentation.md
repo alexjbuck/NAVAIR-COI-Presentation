@@ -11,7 +11,7 @@ toc: true
 toc-title: the overview
 ---
 
-# Who am I?
+## Who am I?
 
 ### Just some pilot
 
@@ -27,13 +27,13 @@ LCDR Alex "Jarvis" Buck
 
 # Project Harbinger+Air
 
-Use machine learning to classify acoustic contact in the spectrogram (*gram*) from an SSQ-53 series DIFAR buoy.
+Use machine learning to real-time classify acoustic contact in the spectrogram (*gram*) from an SSQ-53 series DIFAR buoy.
 
 ![Example Gram Data](waterfall.png)
 
 ## Needle in a Haystack
 
-$$SE = SL-RD-NL+DI-PL$$
+$$SE = SL-PL-NL+DI-RD$$
 
 There are lots of things that make sound in the water other than submarines.
 
@@ -119,22 +119,30 @@ Usage checklist is a single kneeboard sized page.
 # Where is the project now?
 
 ## Status of Harbinger+Air fleet collections
-- Data collection process used on **14** operational deployments and numerous HARP classes.
-- Large 10TB hard drives for on-ship cache. Dump to Snowball upon return.
-- Testing initial algorithm later this year on P-8A Mighty Orion.
-- Roadmap to MH-60R integration is unknown.
+
+Data collection process used on **14** operational deployments and numerous HARP classes.
+
+Replaced snowballs on ships with several 10TB hard drives.
+
+Testing initial algorithm later this year on P-8A.
+
+Roadmap to MH-60R integration is unknown.
 
 # What we learned
 
-- Understand the user workflow
-- Minimize what the user needs to learn
-- Shipping SECRET material is easier than you might think.
-- Long-term snowball rental can be expensive.^[The first 10 days are free. Intended as dump and ship back.]
-- Snowballs can fail.
-- Labelling is hard. 
-- Details:
-  - ARPDD discriminator data is huge. Nothing uses this data yet.
 
-## Future Work
+Understand the user workflow
 
-- Batch parser so we can automate
+Minimize what the user needs to learn
+
+Shipping SECRET material is easier than you might think.
+
+Long-term snowball rental can be expensive.^[The first 10 days are free. Intended as dump and ship back.]
+
+Snowballs can fail.\begin{small}This is not fun when its stuck on a ship for 6 months.\end{small}
+
+Details:
+  
+  ARPDD discriminator data is huge. Nothing uses this data yet.
+
+# Questions
