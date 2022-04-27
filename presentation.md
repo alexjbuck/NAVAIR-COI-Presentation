@@ -64,7 +64,8 @@ Multiple steps for the aircrew:
   - Rename output according to specific format
   - Upload output to IntelDocs
 
-# Well that's not great {.unlisted .unnumbered}
+### Well that's not great {.unlisted .unnumbered}
+
 
 ## Every Byte, Every Flight
 
@@ -81,6 +82,7 @@ Build future value for other sensors, e.g. ISAR, FLIR, etc...
 
 ### Not enough storage
 We needed a better simple storage solution.
+
 
 ## Alone with a Snowball
 
@@ -116,6 +118,8 @@ Initial version built in 3 weeks. Iterated with users over 4 HARPs throughout 20
 
 Usage checklist is a single kneeboard sized page.
 
+
+
 # Where is the project now?
 
 ## Status of Harbinger+Air fleet collections
@@ -130,19 +134,18 @@ Roadmap to MH-60R integration is unknown.
 
 # What we learned
 
+No community funded systematic collection and organization of sensor datasets. Future of Harbinger+Air data collection is unclear.
 
-Understand the user workflow
+To maximize adoption, minimize what the operator needs to learn to support collection.
 
-Minimize what the user needs to learn
+Data collection can support aircrew training and debrief to encourage adoption.
 
-Shipping SECRET material is easier than you might think.
+Long-term Snowball rental is expensive if all you need is storage.^[The first 10 days are free. Intended as dump and ship back.]
 
-Long-term snowball rental can be expensive.^[The first 10 days are free. Intended as dump and ship back.]
+Snowballs can fail. Not ideal when stuck on a ship for 6 months.
 
-Snowballs can fail.\begin{small}This is not fun when its stuck on a ship for 6 months.\end{small}
+There is no secret room of labellers. If possible, use post-flight support personnel or aircrew to label.^[Transcribe aircraft ICS as a first pass at labelling.]
 
-Details:
-  
-  ARPDD discriminator data is huge. Nothing uses this data yet.
+Sandboxed mission system that does not affect flight operations expedites in-aircraft test.^[e.g. Mighty Orion system on P-8A, vice no clear path for MH-60R.]
 
 # Questions
