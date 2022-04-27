@@ -6,7 +6,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "pandoc --slide-level=2 -V aspectratio=43 -t beamer -N  -o out.pdf presentation.md"
+            "command": "pandoc --slide-level=2 -V aspectratio=43 -t beamer -N  -o presentation.pdf presentation.md"
         }
     ]
 }
