@@ -124,13 +124,14 @@ Usage checklist is a single kneeboard sized page.
 
 ## Status of Harbinger+Air fleet collections
 
-Data collection process used on **14** operational deployments and numerous HARP classes.
+Data collection process used on **14** operational MH-60R deployments and numerous HARP classes.
 
 Replaced snowballs on ships with several 10TB hard drives.
 
 Testing initial algorithm later this year on P-8A.
 
 Roadmap to MH-60R integration is unknown.
+
 
 # What we learned
 
