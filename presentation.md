@@ -49,23 +49,27 @@ Doing so, while managing 4 other sensors is harder.
 
 ## What happens after a flight
 
-### It gets deleted
+### ...It gets deleted
 
 Once any immediate debrief or VI is complete, re-format the cards.
 
 ### Except ESM... sometimes
 
-Previously the only sensor data collection effort in the MH-60R fleet.^[I am not counting maintenance data/IMDS in this.]
+Previously the only mission sensor data collection effort in the MH-60R fleet.
 
 Multiple steps for the aircrew:
 
-  - Run a program to parse ESM data
+  - Run a program to parse ESM data (many steps req.)
   - Find output in obscure folder
-  - Rename output according to specific format
+  - Manually rename output according to specific format
   - Upload output to IntelDocs
 
-### Well that's not great {.unlisted .unnumbered}
+### Well that's not great
 
+
+## The Mantra
+
+![Unofficial Patch](everybyte.png){height=80%}
 
 ## Every Byte, Every Flight
 
@@ -83,7 +87,7 @@ Build future value for other sensors, e.g. ISAR, FLIR, etc...
 ### Not enough storage
 We needed a better simple storage solution.
 
-
+<!-- 
 ## Alone with a Snowball
 
 Harbinger+Air uses AWS Secret Commercial Cloud Services.
@@ -92,8 +96,8 @@ AWS Snowball Edge migrates up to 80TB into AWS S3.
 
 Security Manager: "What the *$%! is this?" 
 ![WTF](wtf.png){height=30%}
-![Snowball](snowball.png){height=30%}
-
+![Snowball](snowball.png){height=30%} 
+-->
 <!-- 
 Arrives unclassified via UPS
 
@@ -106,11 +110,11 @@ Departs classified via prepaid UPS^[DoD Manual 5200.01 Enclosure 4 paragraph 10d
 
 ## Cronus, the harvester
 
-Tool built on JMPS laptops that:
+Open source tool^[Source available at [gitlab.gs.mil/hsm/cronus](gitlab.gs.mil/hsm/cronus)] built on JMPS laptops that:
 
-- Automates the snowball setup
 - Minimizes aircrew decisions
 - Minimizes aircrew post-flight actions
+- Automates connection to AWS Snowball Edge
 
 Its really just a fancy copy/paste operation right now.
 
@@ -126,7 +130,7 @@ Usage checklist is a single kneeboard sized page.
 
 Data collection process used on **14** operational MH-60R deployments and numerous HARP classes.
 
-Replaced snowballs on ships with several 10TB hard drives.
+Replaced Snowballs on ships with several 10TB hard drives.
 
 Testing initial algorithm later this year on P-8A.
 
@@ -145,7 +149,7 @@ Long-term Snowball rental is expensive if all you need is storage.^[The first 10
 
 Snowballs can fail. Not ideal when stuck on a ship for 6 months.
 
-There is no secret room of labellers. If possible, use post-flight support personnel or aircrew to label.^[Transcribe aircraft ICS as a first pass at labelling.]
+There is no secret room of data labellers. If possible, use post-flight support personnel or aircrew to label.^[Transcribe aircraft ICS as a first pass at labelling.]
 
 Sandboxed mission system that does not affect flight operations expedites in-aircraft test.^[e.g. Mighty Orion system on P-8A, vice no clear path for MH-60R.]
 
