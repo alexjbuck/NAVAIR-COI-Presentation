@@ -69,7 +69,7 @@ Multiple steps for the aircrew:
 
 ## The Mantra
 
-![Unofficial Patch](everybyte.png){height=80%}
+![Unofficial Patch](everybyte.small.png){height=80%}
 
 ## Every Byte, Every Flight
 
